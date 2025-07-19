@@ -29,10 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 2, suffix: "+", label: "Years of Experience" },
+  { value: 4, suffix: "+", label: "Satisfied Clients" },
+  { value: 12, suffix: "+", label: "Completed Projects" },
 ];
 
 const logoIconsList = [
@@ -102,14 +101,7 @@ const techStackImgs = [
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
+ 
 ];
 
 const techStackIcons = [
@@ -131,18 +123,18 @@ const techStackIcons = [
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
+  // {
+  //   name: "Interactive Developer",
+  //   modelPath: "/models/three.js-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, 0, 0],
+  // },
+  // {
+  //   name: "Project Manager",
+  //   modelPath: "/models/git-svg-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, -Math.PI / 4, 0],
+  // },
 ];
 
 const expCards = [
